@@ -1,0 +1,23 @@
+{
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "block/redstone_dust_dot"
+    },
+    "elements": [
+        {   "from": [ 9.364, 0.27, 11 ],
+            "to": [ 6.636, 0.27, 8.273 ],
+            "shade": false,
+            "faces": {
+                "up": { "uv": [ 0, 0, 16, 16 ], "texture": "#power"}
+            }
+        },
+		{
+			"from": [ 6.636, 0.27, 5 ],
+            "to": [ 9.364, 0.27, 7.727 ],
+            "shade": false,
+            "faces": {
+                "up": { "uv": [ 0, 0, 16, 16 ], "texture": "#power"}
+            }
+		}
+    ]
+}

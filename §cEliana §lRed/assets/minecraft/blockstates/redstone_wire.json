@@ -1,0 +1,232 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/redstone_dust_dot"
+      },
+      "when": {
+        "OR": [
+          {
+            "east": "none",
+            "north": "none",
+            "south": "none",
+            "west": "none"
+          },
+          {
+            "east": "side|up",
+            "north": "side|up"
+          },
+          {
+            "east": "side|up",
+            "south": "side|up"
+          },
+          {
+            "south": "side|up",
+            "west": "side|up"
+          },
+          {
+            "north": "side|up",
+            "west": "side|up"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/redstone_dust_side0"
+      },
+      "when": {
+        "north": "side|up"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/redstone_dust_side_alt0"
+      },
+      "when": {
+        "south": "side|up"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/redstone_dust_side_alt1",
+        "y": 270
+      },
+      "when": {
+        "east": "side|up"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/redstone_dust_side1",
+        "y": 270
+      },
+      "when": {
+        "west": "side|up"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/redstone_dust_up"
+      },
+      "when": {
+        "north": "up"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/redstone_dust_up",
+        "y": 90
+      },
+      "when": {
+        "east": "up"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/redstone_dust_up",
+        "y": 180
+      },
+      "when": {
+        "south": "up"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/redstone_dust_up",
+        "y": 270
+      },
+      "when": {
+        "west": "up"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/redstone_dust_power_0"
+      },
+      "when": {
+        "power": 0
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/redstone_dust_power_1"
+      },
+      "when": {
+        "power": 1
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/redstone_dust_power_2"
+      },
+      "when": {
+        "power": 2
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/redstone_dust_power_3"
+      },
+      "when": {
+        "power": 3
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/redstone_dust_power_4"
+      },
+      "when": {
+        "power": 4
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/redstone_dust_power_5"
+      },
+      "when": {
+        "power": 5
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/redstone_dust_power_6"
+      },
+      "when": {
+        "power": 6
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/redstone_dust_power_7"
+      },
+      "when": {
+        "power": 7
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/redstone_dust_power_8"
+      },
+      "when": {
+        "power": 8
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/redstone_dust_power_9"
+      },
+      "when": {
+        "power": 9
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/redstone_dust_power_10"
+      },
+      "when": {
+        "power": 10
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/redstone_dust_power_11"
+      },
+      "when": {
+        "power": 11
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/redstone_dust_power_12"
+      },
+      "when": {
+        "power": 12
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/redstone_dust_power_13"
+      },
+      "when": {
+        "power": 13
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/redstone_dust_power_14"
+      },
+      "when": {
+        "power": 14
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/redstone_dust_power_15"
+      },
+      "when": {
+        "power": 15
+      }
+    }
+  ]
+}
